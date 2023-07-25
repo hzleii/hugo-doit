@@ -1,12 +1,15 @@
 ---
 title: "136.只出现一次的数字"
-description: "136.只出现一次的数字"
-date: 2021-06-10
+description: ""
+date: 2020-04-03
+lastmod: 2020-04-03
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
+
+description: "136.只出现一次的数字"
+
 ---
 
 

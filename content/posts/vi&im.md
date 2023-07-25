@@ -1,14 +1,11 @@
 ---
 title: vi/vim 的基本用法
-date: 2021-02-03 22:14:45
-updated: 2021-02-03 22:15:50
-toc: true #是否显示文章目录
-excerpt: vi/vim 的基本用法
-index_img: https://online-education-headimg.oss-cn-beijing.aliyuncs.com/%E5%8D%9A%E5%AE%A2/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/linux/vi%26vim.png
-categories: [Linux] #分类
-tags: [Linux] #标签
+date: 2021-02-03
+lastmod: 2021-02-03
+description: vi/vim 的基本用法
+categories: [Linux]
+tags: [Linux]
 ---
-
 
 
 
@@ -24,14 +21,9 @@ tags: [Linux] #标签
 
 vim 具有程序编辑的能力，可以主动的以字体颜色辨别语法的正确性，方便程序设计。
 
-Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。
+vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。
 
 简单的来说， vi 是老式的字处理器，不过功能已经很齐全了，但是还是有可以进步的地方。 vim 则可以说是程序开发者的一项很好用的工具。
-
-连 vim 的官方网站 ([http://www.vim.org](http://www.vim.org/)) 自己也说 vim 是一个程序开发工具而不是文字处理软件。
-
-![](https://online-education-headimg.oss-cn-beijing.aliyuncs.com/%E5%8D%9A%E5%AE%A2/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87/vi-vim-cheat-sheet-sch.gif)
-
 
 
 ## 第一部分
@@ -155,24 +147,24 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
 
 - 在 10 - 20 行添加 **//** 注释
 
-```linux
+```shell
 :10,20s#^#//#g
 ```
 
 - 在 10 - 20 行删除 **//** 注释
 
-```
+```shell
 :10,20s#^//##g
 ```
 
 - 10 - 20 行添加 **#** 注释
 
-```
+```shell
 :10,20s/^/#/g
 ```
 
 - 在 **10 - 20** 行删除 # 注释
 
-```
+```shell
 :10,20s/#//g
 ```

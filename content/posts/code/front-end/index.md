@@ -5,9 +5,7 @@ categories: ["code"]
 tags: ["Language"]
 series: ["Weeb"]
 description: "前端应用笔记，包括前端安全、性能优化、移动兼容等内容。"
-resources:
-- name: featured-image
-  src: index.webp
+featuredImage: "index.webp"
 ---
 
 ## CSRF 和 XSS 攻击

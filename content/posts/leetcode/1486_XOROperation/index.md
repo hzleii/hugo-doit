@@ -1,12 +1,12 @@
 ---
 title: "1486.数组异或操作"
 description: "1486.数组异或操作"
-date: 2021-06-10
+date: 2020-04-19
+lastmod: 2020-04-19
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

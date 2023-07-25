@@ -1,12 +1,12 @@
 ---
 title: "191.位1的个数"
 description: "191.位1的个数"
-date: 2021-06-1
+date: 2020-04-06
+lastmod: 2020-04-06
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

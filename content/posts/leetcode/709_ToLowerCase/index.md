@@ -1,12 +1,12 @@
 ---
 title: "709.转换成小写字母"
 description: "709.转换成小写字母"
-date: 2021-06-10
+date: 2020-04-16
+lastmod: 2020-04-16
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

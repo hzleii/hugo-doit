@@ -1,12 +1,12 @@
 ---
 title: "184.部门工资最高的员工"
 description: "184.部门工资最高的员工"
-date: 2021-06-10
+date: 2020-04-05
+lastmod: 2020-04-05
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

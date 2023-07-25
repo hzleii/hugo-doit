@@ -5,9 +5,7 @@ categories: ["code"]
 tags: ["Language", "JavaScript"]
 series: ["Weeb"]
 description: "JavaScript 常见手写，包括防抖、节流、柯里、扁平、去重等各类手写。"
-resources:
-- name: featured-image
-  src: index.webp
+featuredImage: "index.webp"
 ---
 
 ## 工具函数

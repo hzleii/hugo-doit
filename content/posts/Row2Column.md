@@ -96,13 +96,11 @@ GROUP BY USER_ID
 
 可以看出，这里行转列是将原来的`SUBJECT`字段的多行内容选出来，作为结果集中的不同列，并根据`USER_ID`进行分组显示对应的`SCORE`。
 
-{% folding red open, 注意点： %}
-
+{{< admonition >}}
 1. `SUM()`是为了能够使用`GROUP BY`根据`USER_ID`进行分组，**因为**每一个`USER_ID`对应的`SUBJECT=语文`的**记录只有一条**，所以`SUM()`的值就等于对应那一条记录的score的值。
 2. 假如`USER_ID = '1001' AND SUBJECT = '语文'`的记录有两条，则此时`SUM()`的值将会是这两条记录的和，同理，使用`MAX()`的值将会是这两条记录里面最大的一个。但是正常情况下，一个`USER`对应一个`SUBJECT`只有一个分数，<span style="color:red; font-weight: bold;">因此使用 SUM()、MAX()、MIN()、AVG()等聚合函数都可以达到行转列的效果</span>
 3. `IF('SUBJECT' = '语文', score, 0)`作为条件，即对所有`SUBJECT='语文'`的记录的`SCORE`字段进行`SUM(), MAX(), MIN(), AVG()`操作，如果`SCORE`没有值则默认为`0`。
-
-{% endfolding %}
+{{< /admonition >}}
 
 
 
@@ -284,8 +282,12 @@ ORDER BY USER_ID
 | 1003    | 英语   | 90    |
 | 1003    | 政治   | 82    |
 
+
+{{< admonition >}}
 附：UNION 与 UNION ALL 的区别：
 
 1. 对重复结果的处理：UNION 会去掉重复记录，UNION ALL 不会；
 2. 对排序的处理：UNION 会排序，UNION ALL 只是简单的将两个结果集合合并；
 3. 效率方面的区别：因为 UNION 会做去重和排序，因此效率比 UNION ALL 慢很多。
+{{< /admonition >}}
+

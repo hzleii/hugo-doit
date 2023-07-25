@@ -12,7 +12,7 @@ math:
 
 ## 我
 
-磊子 目前是一名{% psw 程序猿 %}。
+磊子 目前是一名{{< pwd >}}程序猿{{< /pwd >}}。
 
 我只知道一件事，就是我一无所知。
 
@@ -52,5 +52,5 @@ math:
 ## 联系方式
 
 ```sh
-echo "aHpsZWlAZm94bWFpbC5jb20K" | base64 -d
+echo "aHpsZWlpQG91dGxvb2suY29t" | base64 -d
 ```

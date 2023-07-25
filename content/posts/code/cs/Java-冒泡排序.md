@@ -1,13 +1,11 @@
 ---
 title: Java-冒泡排序
-date: 2020-07-20 21:00:24
-updated: 2020-07-20 21:00:24
-toc: true #是否显示文章目录
+date: 2020-07-21
+lastmod: 2020-07-21
 math: true
-excerpt: Java版冒泡排序(待优化)
-index_img: https://online-education-headimg.oss-cn-beijing.aliyuncs.com/%E5%8D%9A%E5%AE%A2/%E5%85%AC%E5%85%B1%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/post_default_img.png
-categories: [排序算法] #分类
-tags: [Java] #标签
+description: Java版冒泡排序(待优化)
+categories: [算法]
+tags:  [Java]
 ---
 
 

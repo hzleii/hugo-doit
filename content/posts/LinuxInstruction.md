@@ -1,8 +1,9 @@
 ---
 title: Linux 常用命令
-date: 2020-08-13
+date: 2021-03-13
+lastmod: 2021-03-13
 categories: ["Linux"]
-tags: ["Linux常用命令"]
+tags: ["Linux"]
 description: Linux 常用命令
 ---
 

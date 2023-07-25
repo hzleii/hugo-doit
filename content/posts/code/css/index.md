@@ -5,9 +5,7 @@ categories: ["code"]
 tags: ["Language"]
 series: ["Weeb"]
 description: "CSS 重难点整理，包括元素类型、盒模型、选择器、布局等内容。"
-resources:
-- name: featured-image
-  src: index.webp
+featuredImage: "index.webp"
 ---
 
 ## 行内元素与块元素

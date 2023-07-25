@@ -1,12 +1,12 @@
 ---
 title: "596.超过5名学生的课"
 description: "596.超过5名学生的课"
-date: 2021-06-10
+date: 2020-04-15
+lastmod: 2020-04-15
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

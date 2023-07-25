@@ -1,12 +1,12 @@
 ---
 title: "196.删除重复的电子邮箱"
 description: "196.删除重复的电子邮箱"
-date: 2021-06-10
+date: 2020-04-08
+lastmod: 2020-04-08
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

@@ -65,14 +65,6 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.zh-cn.menu.main]]
-        identifier = "series"
-        pre = ""
-        post = ""
-        name = "系列"
-        url = "/series/"
-        title = ""
-        weight = 4
-        [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
@@ -90,13 +82,13 @@ enableEmoji = true
         weight = 9
     [languages.zh-cn.params]
       # 网站描述
-      description = "不能记住过去的人，被判重复过去。"
+      description = "腹有诗书气自华。"
       # 网站关键词
-      keywords = ["Blog", "Hugo", "Java", "程序员"]
+      keywords = ["Blog", "Hugo", "Java", "程序员", "菜园子"]
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-        title = "Humble.X"
+        title = "hzlei"
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -136,7 +128,7 @@ enableEmoji = true
       # 主页信息设置
       [languages.zh-cn.params.home]
         # RSS 文章数目
-        rss = 10
+        rss = 6
         # 主页个人信息
         [languages.zh-cn.params.home.profile]
           enable = true
@@ -147,7 +139,7 @@ enableEmoji = true
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "磊子的菜园子"
           # 主页显示的网站副标题
-          subtitle = "腹有诗书气自华"
+          subtitle = "腹有诗书气自华。"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
@@ -242,10 +234,10 @@ enableEmoji = true
 [params]
   # website title
   # 网站标题
-  title = "向之礼的个人博客"
+  title = "磊子的菜园子"
   # DoIt theme version
   # DoIt 主题版本
-  version = "0.2.X"
+  version = "0.4.0 Release"
   # site default theme ("light", "dark", "black", "auto")
   # 网站默认主题 ("light", "dark", "black", "auto")
   defaultTheme = "auto"
@@ -280,7 +272,7 @@ enableEmoji = true
     mobileMode = "auto"
     # theme change mode ("switch", "select")
     # 主题切换模式 ("switch", "select")
-    themeChangeMode = "select"
+    themeChangeMode = "switch"
     # Header title config
     # 页面头部导航栏标题配置
     [params.header.title]
@@ -298,7 +290,7 @@ enableEmoji = true
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = true
+      typeit = false
 
   # Footer config
   # 页面底部信息配置
@@ -322,7 +314,7 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2018
+    since = 2019
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -341,7 +333,7 @@ enableEmoji = true
     dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
-    rss = 10
+    rss = 6
     # recently updated posts settings
     # 最近更新文章设置
     [params.section.recentlyUpdated]
@@ -361,7 +353,7 @@ enableEmoji = true
     dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
-    rss = 10
+    rss = 6
 
   # Page config
   # 文章页面配置
@@ -389,20 +381,21 @@ enableEmoji = true
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
-    linkToMarkdown = true
+    linkToMarkdown = false
     # configure the link to view source the post
     # 配置文章原始文件的链接
-    linkToSource = "https://github.com/Humble-Xiang/hugo-blog/blob/main/content/{path}"
+    linkToSource = "https://github.com/hzleii/hzleii.github.io/blog/content/{path}"
     # "https://github.com/user/repo/blob/main/{path}"
     # configure the link to edit the post
     # 配置编辑文章的链接
-    linkToEdit = "https://github.com/Humble-Xiang/hugo-blog/edit/main/content/{path}"
+    linkToEdit = "https://github.com/hzleii/hzleii.github.io/edit/blog/content/{path}"
     # https://github.com/user/repo/edit/main/{path}
     # https://gitlab.com/user/repo/-/edit/main/{path}
     # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
     # configure the link to report issue for the post
     # 配置提交错误的链接
-    linkToReport = "https://github.com/Humble-Xiang/hugo-blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/Humble-Xiang/hugo-blog/blob/main/content/{path}|"
+    linkToReport = ""
+    # linkToReport = "https://github.com/Humble-Xiang/hugo-blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/Humble-Xiang/hugo-blog/blob/main/content/{path}|"
     # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
     # whether to show the full text content in RSS
@@ -413,7 +406,7 @@ enableEmoji = true
     pageStyle = "normal"
     # whether to enable series navigation
     # 是否使用系列导航
-    seriesNavigation = true
+    seriesNavigation = false
     # Display a message at the beginning of an article to warn the reader that its content might be outdated.
     # 在文章开头显示提示信息，提醒读者文章内容可能过时。
     [params.page.outdatedArticleReminder]
@@ -496,12 +489,12 @@ enableEmoji = true
     # Social share links in post page
     # 文章页面的分享信息设置
     [params.page.share]
-      enable = true
+      enable = false
       [params.page.share.ogimage]
         enable = true
         serverURL = "https://og-image.humblex.top/"
         # 文章标题上面的默认图片，文章存在 featuredImage 时优先使用 featuredImage
-        defaultImage = "https://blog.humblex.top/images/avatar.jpg"
+        defaultImage = "https://cdn.jsdelivr.net/gh/hzleii/imgs/head400x400.png"
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -579,7 +572,7 @@ enableEmoji = true
       # Waline comment config (https://waline.js.org)
       # Waline 评论系统设置 (https://waline.js.org)
       [params.page.comment.waline]
-        enable = true
+        enable = false
         serverURL = "https://blog-waline.humblex.top"
         visitor = false
         emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
@@ -656,12 +649,12 @@ enableEmoji = true
       # giscus comment config (https://giscus.app/)
       # giscus comment 评论系统设置 (https://giscus.app/)
       [params.page.comment.giscus]
-        enable = false
+        enable = true
         # owner/repo
-        dataRepo = ""
-        dataRepoId = ""
-        dataCategory = ""
-        dataCategoryId = ""
+        dataRepo = "hzleii/giscus"
+        dataRepoId = "R_kgDOJUTMkA"
+        dataCategory = "评论"
+        dataCategoryId = "DIC_kwDOJUTMkM4CVoj8"
         dataMapping = "pathname"
         dataReactionsEnabled = "1"
         dataEmitMetadata = "0"
@@ -784,7 +777,7 @@ enableEmoji = true
   # Cookie consent config
   # Cookie 许可配置
   [params.cookieconsent]
-    enable = false
+    enable = true
     # text strings used for Cookie consent banner
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
@@ -856,7 +849,7 @@ enableEmoji = true
 [author]
   name = "磊子"
   email = "hzleii@outlook.com"
-  link = "https://github.com/hzleii"
+  link = ""
   avatar = "/images/avatar.jpg"
   gravatarEmail = ""
 

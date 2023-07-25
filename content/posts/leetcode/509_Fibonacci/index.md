@@ -1,12 +1,12 @@
 ---
 title: "509.斐波那契数"
 description: "509.斐波那契数"
-date: 2021-06-10
+date: 2020-04-14
+lastmod: 2020-04-14
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

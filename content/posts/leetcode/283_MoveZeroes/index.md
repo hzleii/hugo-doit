@@ -1,12 +1,12 @@
 ---
 title: "283.移动零"
 description: "283.移动零"
-date: 2021-06-10
+date: 2020-04-12
+lastmod: 2020-04-12
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

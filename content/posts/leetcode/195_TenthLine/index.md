@@ -1,12 +1,12 @@
 ---
 title: "195.第十行"
 description: "195.第十行"
-date: 2021-06-10
+date: 2020-04-07
+lastmod: 2020-04-07
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

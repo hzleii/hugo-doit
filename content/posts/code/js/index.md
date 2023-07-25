@@ -5,9 +5,7 @@ categories: ["code"]
 tags: ["Language", "JavaScript"]
 series: ["Weeb"]
 description: "JavaScript 重难点整理，包括数据类型、执行上下文、事件循环等内容。"
-resources:
-- name: featured-image
-  src: index.webp
+featuredImage: "index.webp"
 ---
 
 ## 数据

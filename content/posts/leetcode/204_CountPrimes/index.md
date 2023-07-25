@@ -1,12 +1,12 @@
 ---
 title: "204.计算质数"
 description: "204.计算质数"
-date: 2021-06-10
+date: 2020-04-10
+lastmod: 2020-04-10
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

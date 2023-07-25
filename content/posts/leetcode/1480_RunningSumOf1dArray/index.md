@@ -1,12 +1,12 @@
 ---
 title: "1480.一堆数组的动态和"
 description: "1480.一堆数组的动态和"
-date: 2021-06-10
+date: 2020-04-18
+lastmod: 2020-04-18
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

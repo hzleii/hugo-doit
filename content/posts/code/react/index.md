@@ -5,9 +5,7 @@ categories: ["code"]
 tags: ["Language", "React"]
 series: ["Weeb"]
 description: "React 重点整理，包括一些框架特定的内容、特性，以及与其他框架的对比等。"
-resources:
-- name: featured-image
-  src: index.webp
+featuredImage: "index.webp"
 ---
 
 ## 对比 Vue.js

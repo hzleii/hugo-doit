@@ -1,12 +1,12 @@
 ---
 title: "342.4的幂"
 description: "342.4的幂"
-date: 2021-06-10
+date: 2020-04-13
+lastmod: 2020-04-13
 math:
   enable: true
 categories: ["LeetCode"]
 tags: ["LeetCode"]
-series: ["Leet_Code"]
 ---
 
 

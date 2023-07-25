@@ -1,10 +1,13 @@
 ---
 title: Java8 Stream 流操作
 date: 2022-06-07
+lastmod: 2022-06-07
 categories: [Java]
 tags: [Stream]
 description: Java8 Stream 流操作
 ---
+
+
 
 ## 什么是 Stream
 
